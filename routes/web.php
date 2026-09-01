@@ -19,3 +19,9 @@ Route::resource('loans', LoanController::class);
 // Custom route aksi pengembalian
 Route::put('/loans/{id}/kembalikan', [LoanController::class, 'kembalikan'])
     ->name('loans.kembalikan');
+
+Route::prefix('admin')->group(function () {
+    Route::get('/info', function () {
+        return 'Informasi Sistem Perpustakaan - Panel Admin';
+    });
+});
