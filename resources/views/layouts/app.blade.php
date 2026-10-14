@@ -17,6 +17,13 @@
         th, td { border: 1px solid #ccc; padding: 8px 12px; text-align: left; }
         .alert-success { background: #d1fae5; color: #065f46; padding: 10px 14px; border-radius: 4px; margin-bottom: 16px; }
         .btn { display: inline-block; padding: 6px 14px; background: #2563eb; color: #fff; text-decoration: none; border-radius: 4px; border: none; cursor: pointer; }
+        .btn-sm { padding: 4px 10px; font-size: 13px; }
+        .btn-success { background: #16a34a; }
+        .btn-success:hover { background: #15803d; }
+        .badge { display: inline-block; padding: 4px 10px; border-radius: 9999px; font-size: 12px; font-weight: bold; text-transform: uppercase; }
+        .badge-dipinjam { background: #ffedd5; color: #c2410c; }
+        .badge-dikembalikan { background: #d1fae5; color: #047857; }
+        .badge-terlambat { background: #fee2e2; color: #b91c1c; }
         form.inline { display: inline; }
         footer { text-align: center; padding: 20px; color: #6b7280; font-size: 14px; border-top: 1px solid #e5e7eb; margin-top: 40px; }
         label { display: block; margin-top: 12px; font-weight: bold; }
